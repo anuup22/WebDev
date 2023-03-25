@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>We are seeing forms in html</h1>
+    <p>forms are used to take data from user in a website</p>
+    <div>
+        <h2>feedback form for my students</h2>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your Name:">
+            <br><br>
+            <!-- it is quite a bit confusing -->
+
+            <!-- if more than one radio buttens are having the same names then only one button will be clicked at once -->
+            <label for="sectionidA">
+                <input type="radio" value="Section A" name="section" id="sectionidA">Div A
+            </label>
+            <label for="sectionidB">
+                <input type="radio" value="Section B" name="section" id="sectionidB">Div B
+            </label>
+            <label for="sectionidC">
+                <input type="radio" value="Section C" name="section" id="sectionidC" class="red">Div C
+            </label>
+             <!-- learn these things from MDN website -->
+            <input type="checkbox" name="coupons" id="food" class="yellow">
+        </form>
+        <!-- we are sending data to php -->
+    </div>
+</body>
+
+</html>
